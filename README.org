@@ -1,0 +1,22 @@
+#+TITLE: 12-steps to Navier-Stokes with OpenFOAM
+
+#+BEGIN_ABSTRACT
+Following this work http://lorenabarba.com/blog/cfd-python-12-steps-to-navier-stokes/
+#+END_ABSTRACT
+
+* Steps
+** TODO 01: 1D Linear convection
+** TODO 02: 1D Non-linear convection
+** DONE 03: 1D Diffusion
+** DONE 04: 1D Burgers equation
+** TODO 05: Linear convection
+** TODO 06: Non-linear convection
+** TODO 07: Diffusion
+** TODO 08: Burgers equation
+** TODO 09: Laplace equation
+** TODO 10: Poisson equation
+** TODO 11: Cavity flow
+** TODO 12: Channel flow
+
+* Notes
+** How do I setup and solve a purely explicit equation?
