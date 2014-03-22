@@ -1,2 +1,2 @@
 LOCAL_OBJECTS = \
-nonLinConv.o
+convFoam.o

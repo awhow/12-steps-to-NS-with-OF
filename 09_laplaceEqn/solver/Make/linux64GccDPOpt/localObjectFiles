@@ -1,2 +1,2 @@
 LOCAL_OBJECTS = \
-laplaceEqn.o
+lapFoam.o

@@ -1,1 +1,1 @@
-include diffEqn.dep
+include diffFoam.dep

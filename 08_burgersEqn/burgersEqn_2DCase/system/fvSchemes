@@ -28,7 +28,9 @@ gradSchemes
 divSchemes
 {
     default         none;
-    div(phi,U)      Gauss linear;
+    div(phiC,U)      Gauss limitedLinear 1;
+    div(phi,U)      Gauss limitedLinear 1;
+    //    div(U)          Gauss linear;
 }
 
 laplacianSchemes

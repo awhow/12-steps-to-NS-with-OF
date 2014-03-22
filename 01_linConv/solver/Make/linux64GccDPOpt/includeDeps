@@ -1,1 +1,1 @@
-include linConv.dep
+include linConvFoam.dep

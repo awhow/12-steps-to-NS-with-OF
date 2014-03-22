@@ -1,2 +1,2 @@
 LOCAL_OBJECTS = \
-diffEqn.o
+diffFoam.o

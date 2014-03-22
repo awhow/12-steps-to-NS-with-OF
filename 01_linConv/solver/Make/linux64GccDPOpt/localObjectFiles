@@ -1,2 +1,2 @@
 LOCAL_OBJECTS = \
-linConv.o
+linConvFoam.o

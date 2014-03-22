@@ -28,6 +28,8 @@ gradSchemes
 divSchemes
 {
     default         none;
+    div(phiC,U)      Gauss limitedLinear 1;
+    div(phi,U)      Gauss limitedLinear 1;
     //    div(U)          Gauss linear;
 }
 

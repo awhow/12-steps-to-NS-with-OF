@@ -15,7 +15,7 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-application     diffEqn;
+application     diffFoam;
 
 startFrom       startTime;
 

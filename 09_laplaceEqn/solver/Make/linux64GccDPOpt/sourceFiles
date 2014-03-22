@@ -1,2 +1,2 @@
 SOURCE = \
-laplaceEqn.C
+lapFoam.C

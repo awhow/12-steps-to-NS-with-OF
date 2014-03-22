@@ -1,2 +1,2 @@
 OBJECTS = \
-$(OBJECTS_DIR)/nonLinConv.o
+$(OBJECTS_DIR)/convFoam.o

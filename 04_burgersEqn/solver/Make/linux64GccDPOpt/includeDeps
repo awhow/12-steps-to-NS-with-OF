@@ -1,1 +1,1 @@
-include burgersEqn.dep
+include burgersFoam.dep

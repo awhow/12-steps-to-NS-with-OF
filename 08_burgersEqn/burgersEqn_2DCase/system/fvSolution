@@ -17,40 +17,13 @@ FoamFile
 
 solvers
 {
-
-    // U
-    // {
-    //     solver          PBiCG;
-    //     preconditioner  DILU;
-    //     tolerance       1e-05;
-    //     relTol          0;
-    // }
-
     U
     {
-        solver           GAMG;
-        tolerance        1e-6;
-        relTol           0.1;
-
-        smoother         DILUGaussSeidel;
-        nPreSweeps       0;
-        nPostSweeps      2;
-
-        cacheAgglomeration true;
-
-        nCellsInCoarsestLevel 10;
-        agglomerator     faceAreaPair;
-        mergeLevels      1;
-
-        maxIter          50;
-    };
-
+        solver          PBiCG;
+        preconditioner  DILU;
+        tolerance       1e-06;
+        relTol          0;
+    }
 }
-
-SIMPLE
-{
-    nNonOrthogonalCorrectors 2;
-}
-
 
 // ************************************************************************* //

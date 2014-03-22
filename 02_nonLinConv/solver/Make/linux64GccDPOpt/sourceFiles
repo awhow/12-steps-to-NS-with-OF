@@ -1,2 +1,2 @@
 SOURCE = \
-nonLinConv.C
+convFoam.C

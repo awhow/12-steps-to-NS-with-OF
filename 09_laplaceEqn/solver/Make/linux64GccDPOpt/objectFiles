@@ -1,2 +1,2 @@
 OBJECTS = \
-$(OBJECTS_DIR)/laplaceEqn.o
+$(OBJECTS_DIR)/lapFoam.o

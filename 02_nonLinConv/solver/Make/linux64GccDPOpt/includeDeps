@@ -1,1 +1,1 @@
-include nonLinConv.dep
+include convFoam.dep

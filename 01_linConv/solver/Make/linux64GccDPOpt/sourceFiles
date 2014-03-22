@@ -1,2 +1,2 @@
 SOURCE = \
-linConv.C
+linConvFoam.C

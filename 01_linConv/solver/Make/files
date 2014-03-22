@@ -1,3 +1,3 @@
-linConv.C  
+linConvFoam.C  
 
-EXE = $(FOAM_USER_APPBIN)/linConv
+EXE = $(FOAM_USER_APPBIN)/linConvFoam

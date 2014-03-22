@@ -2,6 +2,6 @@
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "files"
-burgersEqn.C
+burgersFoam.C
 
-EXE = $(FOAM_USER_APPBIN)/burgersEqn
+EXE = $(FOAM_USER_APPBIN)/burgersFoam

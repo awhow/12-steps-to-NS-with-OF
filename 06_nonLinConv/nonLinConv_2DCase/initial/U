@@ -23,26 +23,27 @@ boundaryField
     leftFace
     {
         type            fixedValue;
-        value           uniform (1 0 0);
+        value           uniform (1 1 0);
     }
 
     rightFace
     {
         type            fixedValue;
-        value           uniform (1 0 0);
+        value           uniform (1 1 0);
     }
 
     topFace
     {
         type            fixedValue;
-        value           uniform (1 0 0);
+        value           uniform (1 1 0);
     }
 
     bottomFace
     {
         type            fixedValue;
-        value           uniform (1 0 0);
+        value           uniform (1 1 0);
     }
+
 
     defaultFaces
     {

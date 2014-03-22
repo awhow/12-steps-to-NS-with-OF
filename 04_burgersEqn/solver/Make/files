@@ -1,3 +1,3 @@
-burgersEqn.C
+burgersFoam.C
 
-EXE = $(FOAM_USER_APPBIN)/burgersEqn
+EXE = $(FOAM_USER_APPBIN)/burgersFoam

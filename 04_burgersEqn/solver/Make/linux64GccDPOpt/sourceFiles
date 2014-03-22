@@ -1,2 +1,2 @@
 SOURCE = \
-burgersEqn.C
+burgersFoam.C

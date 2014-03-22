@@ -1,1 +1,1 @@
-include laplaceEqn.dep
+include lapFoam.dep

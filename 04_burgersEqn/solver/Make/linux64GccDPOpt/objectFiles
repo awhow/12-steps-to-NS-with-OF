@@ -1,2 +1,2 @@
 OBJECTS = \
-$(OBJECTS_DIR)/burgersEqn.o
+$(OBJECTS_DIR)/burgersFoam.o

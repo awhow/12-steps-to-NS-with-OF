@@ -1,2 +1,2 @@
 DEPENDENCIES = \
-nonLinConv.dep
+convFoam.dep

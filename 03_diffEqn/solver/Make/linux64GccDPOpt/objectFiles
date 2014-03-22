@@ -1,2 +1,2 @@
 OBJECTS = \
-$(OBJECTS_DIR)/diffEqn.o
+$(OBJECTS_DIR)/diffFoam.o

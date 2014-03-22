@@ -22,7 +22,7 @@ libs (
       "libgroovyBC.so"
 );
 
-application     laplaceEqn;
+application     lapFoam;
 
 startFrom       startTime;
 

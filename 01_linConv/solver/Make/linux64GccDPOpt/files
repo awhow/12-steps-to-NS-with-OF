@@ -2,6 +2,6 @@
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "files"
-linConv.C  
+linConvFoam.C  
 
-EXE = $(FOAM_USER_APPBIN)/linConv
+EXE = $(FOAM_USER_APPBIN)/linConvFoam

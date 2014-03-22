@@ -18,7 +18,7 @@ FoamFile
 
 defaultFieldValues
 (
-    volVectorFieldValue U (1 0 0)
+    volVectorFieldValue U (1 1 0)
 );
 
 regions
@@ -28,7 +28,7 @@ regions
         box (0.5 0.5 -1) (1 1 1);
         fieldValues
         (
-            volVectorFieldValue U (2 0 0)
+            volVectorFieldValue U (2 2 0)
         );
     }
 );
