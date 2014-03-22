@@ -1,0 +1,22 @@
+#!/bin/bash
+cd ${0%/*} || exit 1    # run from this directory
+
+# Source tutorial run functions
+. $WM_PROJECT_DIR/bin/tools/RunFunctions
+
+# Set variables name
+caseDir=${PWD##*/}
+solver=`getApplication`
+statTime=`awk '$1 ~ /startTime/ { print $2 }' system/controlDict | sed 's/\([0-9]*\);/\1/'`
+outFile="log.case"
+
+
+echo "Refreshing org files ..." 
+cp -rf initial 0
+
+runApplication blockMesh
+
+#runApplication setFields
+
+runApplication $solver
+

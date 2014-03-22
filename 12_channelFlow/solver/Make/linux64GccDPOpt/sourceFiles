@@ -1,0 +1,2 @@
+SOURCE = \
+channelFoam.C

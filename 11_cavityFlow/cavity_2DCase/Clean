@@ -1,0 +1,8 @@
+#!/bin/bash
+
+rm -rf [0-9]* [0-9].[0-9]*
+rm -rf err log* Log LOG 
+rm -rf processor*
+rm -rf images sets VTK
+
+rm -rf constant/polyMesh/boundary
