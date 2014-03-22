@@ -1,9 +1,7 @@
 #+TITLE: 12-steps to Navier-Stokes with OpenFOAM
 #+AUTHOR: Aaron Howell
 
-#+BEGIN_ABSTRACT
 Building up CFD complexity, up to solving a foam of the Navier-Stokes Equations. This follows the work of http://lorenabarba.com/blog/cfd-python-12-steps-to-navier-stokes/. 
-#+END_ABSTRACT
 
 It might seem strange to use OpenFOAM to "build up" to the Navier-Stokes equations since it abstracts away most of the numerical complexities. But I often find myself struggling to find the right way to do things in OpenFOAM, that I would be easy to do in Python or Matlab. So I thought it would be instructive to go through the 12-steps and build up these basic solvers. 
 
