@@ -1,32 +1,33 @@
 #+TITLE: 12-steps to Navier-Stokes with OpenFOAM
 #+AUTHOR: Aaron Howell
 
-Building up CFD complexity, up to solving a foam of the Navier-Stokes Equations. This follows the work of http://lorenabarba.com/blog/cfd-python-12-steps-to-navier-stokes/. 
+* 12-steps to Navier-Stokes with OpenFOAM
+Escalating CFD complexity, up to solving a form of the Navier-Stokes equations. This follows the work of http://lorenabarba.com/blog/cfd-python-12-steps-to-navier-stokes/. 
 
-It might seem strange to use OpenFOAM to "build up" to the Navier-Stokes equations since it abstracts away most of the numerical complexities. But I often find myself struggling to find the right way to do things in OpenFOAM, that I would be easy to do in Python or Matlab. So I thought it would be instructive to go through the 12-steps and build up these basic solvers. 
+It might seem strange to use OpenFOAM to "build up" to the Navier-Stokes equations since it abstracts away most of the numerical complexities. But I often find myself struggling to find the right way to do things in OpenFOAM that I know would be easy in Python or Matlab. So I thought it would be instructive to go through the 12-steps and build up these basic solvers. 
 
 * Steps
-** DONE 01: 1D Linear convection
-Solver: linConvFoam
-** DONE 02: 1D Non-linear convection
-Solver: convFoam
-** DONE 03: 1D Diffusion
-Solver: diffFoam
-** DONE 04: 1D Burgers equation
-Solver: burgersFoam
-** DONE 05: 2D Linear convection
-Solver: linConvFoam
-** DONE 06: 2D Non-linear convection
-Solver: convFoam
-** DONE 07: 2D Diffusion
-Solver: diffFoam
-** DONE 08: 2D Burgers equation
-Solver: burgersFoam
-** DONE 09: Laplace equation
-Solver: lapFoam
-** DONE 10: Poisson equation
-Solver: poissonFoam
-** DONE 11: Cavity flow
-Solver: cavityFoam
-** DONE 12: Channel flow
-Solver: channelFoam
+1. [X] 1D Linear convection
+   Solver: linConvFoam
+2. [X] 1D Non-linear convection
+   Solver: convFoam
+3. [X] 1D Diffusion
+   Solver: diffFoam
+4. [X] 1D Burgers equation
+   Solver: burgersFoam
+5. [X] 2D Linear convection
+   Solver: linConvFoam
+6. [X] 2D Non-linear convection
+   Solver: convFoam
+7. [X] 2D Diffusion
+   Solver: diffFoam
+8. [X] 2D Burgers equation
+   Solver: burgersFoam
+9. [X] Laplace equation
+   Solver: lapFoam
+10. [X] Poisson equation
+    Solver: poissonFoam
+11. [X] Cavity flow
+    Solver: cavityFoam
+12. [X] Channel flow
+    Solver: channelFoam
