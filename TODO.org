@@ -1,0 +1,27 @@
+* Steps
+1. 1D Linear convection
+   - Solver: linConvFoam
+   - [X] Results
+2. 1D Non-linear convection
+   - Solver: convFoam
+3. 1D Diffusion
+   - Solver: diffFoam
+   - [X] Results  
+4. 1D Burgers equation
+   - Solver: burgersFoam
+5. 2D Linear convection
+   - Solver: linConvFoam
+6. 2D Non-linear convection
+   - Solver: convFoam
+7. 2D Diffusion
+   - Solver: diffFoam
+8. 2D Burgers equation
+   - Solver: burgersFoam
+9. Laplace equation
+   - Solver: lapFoam
+10. Poisson equation
+    - Solver: poissonFoam
+11. Cavity flow
+    - Solver: cavityFoam
+12. Channel flow
+    - Solver: channelFoam

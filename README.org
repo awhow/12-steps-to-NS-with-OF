@@ -1,35 +1,6 @@
 #+TITLE: 12-steps to Navier-Stokes with OpenFOAM
-#+AUTHOR: Aaron Howell
 
-* 12-steps to Navier-Stokes with OpenFOAM
 Escalating CFD complexity, up to solving a form of the Navier-Stokes equations. This follows the work of http://lorenabarba.com/blog/cfd-python-12-steps-to-navier-stokes/. 
 
-It might seem strange to use OpenFOAM to "build up" to the Navier-Stokes equations since it abstracts away most of the numerical complexities. But I often find myself struggling to find the right way to do things in OpenFOAM that I know would be easy in Python or Matlab. So I thought it would be instructive to go through the 12-steps and build up these basic solvers. 
+Perhaps it is strange to use OpenFOAM to "build up" to the Navier-Stokes equations since it abstracts away most of the numerical complexities. But I find myself struggling to do things in OpenFOAM that I know should be easy. I thought it would be instructive to go through these 12-steps and build up basic solvers. 
 
-* Steps
-1. 1D Linear convection
-   - Solver: linConvFoam
-   - [X] Results
-2. 1D Non-linear convection
-   - Solver: convFoam
-3. 1D Diffusion
-   - Solver: diffFoam
-   - [X] Results  
-4. 1D Burgers equation
-   - Solver: burgersFoam
-5. 2D Linear convection
-   - Solver: linConvFoam
-6. 2D Non-linear convection
-   - Solver: convFoam
-7. 2D Diffusion
-   - Solver: diffFoam
-8. 2D Burgers equation
-   - Solver: burgersFoam
-9. Laplace equation
-   - Solver: lapFoam
-10. Poisson equation
-    - Solver: poissonFoam
-11. Cavity flow
-    - Solver: cavityFoam
-12. Channel flow
-    - Solver: channelFoam
